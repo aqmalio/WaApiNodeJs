@@ -237,7 +237,6 @@ class WhatsAppInstance {
                 this.instance.messages.unshift(...m.messages)
             if (m.type !== 'notify') return
 
-            // https://adiwajshing.github.io/Baileys/#reading-messages
             if (config.markMessagesRead) {
                 const unreadMessages = m.messages.map((msg) => {
                     return {
