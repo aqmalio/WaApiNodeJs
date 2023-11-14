@@ -114,12 +114,6 @@ Response:
 
 Save the value of the `key` from response. Then use this value to call all the routes.
 
-## Postman Docs
-
-All routes are available as a postman collection.
-
--   https://documenter.getpostman.com/view/12514774/UVsPQkBq
-
 ## QR Code
 
 Visit [http://localhost:3333/instance/qr?key=INSTANCE_KEY_HERE](http://localhost:3333/instance/qr?key=INSTANCE_KEY_HERE) to view the QR Code and scan with your device. If you take too long to scan the QR Code, you will have to refresh the page.
@@ -134,25 +128,3 @@ curl --location --request POST 'localhost:3333/message/text?key=INSTANCE_KEY_HER
 --data-urlencode 'id=919999999999' \
 --data-urlencode 'message=Hello World'
 ```
-
-## Routes
-
-| Route                | Source File                                                                                                          |
-| -------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| Instance Routes      | [instance.route.js](https://github.com/salman0ansari/whatsapp-api-nodejs/blob/main/src/api/routes/instance.route.js) |
-| Message Routes       | [message.route.js](https://github.com/salman0ansari/whatsapp-api-nodejs/blob/main/src/api/routes/message.route.js)   |
-| Group Routes         | [group.route.js](https://github.com/salman0ansari/whatsapp-api-nodejs/blob/main/src/api/routes/group.route.js)       |
-| Miscellaneous Routes | [misc.route.js](https://github.com/salman0ansari/whatsapp-api-nodejs/blob/main/src/api/routes/misc.route.js)         |
-
-See all routes here [src/api/routes](https://github.com/salman0ansari/whatsapp-api-nodejs/tree/main/src/api/routes)
-
-# Note
-
-I can't guarantee or can be held responsible if you get blocked or banned by using this software. WhatsApp does not allow bots using unofficial methods on their platform, so this shouldn't be considered totally safe.
-
-# Legal
-
--   This code is in no way affiliated, authorized, maintained, sponsored or endorsed by WA (WhatsApp) or any of its affiliates or subsidiaries.
--   The official WhatsApp website can be found at https://whatsapp.com. "WhatsApp" as well as related names, marks, emblems and images are registered trademarks of their respective owners.
--   This is an independent and unofficial software Use at your own risk.
--   Do not spam people with this.
